@@ -14,7 +14,7 @@ Fill in the data in the playlists_config and run the file to gather the processe
 After generating the JSON, copy it to the PLAYLISTS_CONFIG= section. You don't need to put extra quotes,
 but you need to include the square brackets so for a playlist saved every Wednesday it looks like:
 
-PLAYLISTS_CONFIG=[{"day": 2, .....]
+PLAYLISTS_CONFIG=[{"day": 0, "source": "37i9dQZEVXcOQko4lnUYiC", "target": "5ZqiGxDJoFzCbuO7ZdbY9X"}]
 
 '''
 
@@ -25,8 +25,8 @@ playlists_config = [
     # Discover Weekly example
     {
     "day": 0, # will only run on Mondays
-    "source": "",
-    "target": ""
+    "source": "37i9dQZEVXcOQko4lnUYiC",
+    "target": "5ZqiGxDJoFzCbuO7ZdbY9X"
     },
 
     # Release Radar example
